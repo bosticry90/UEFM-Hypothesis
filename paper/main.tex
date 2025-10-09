@@ -1,0 +1,55 @@
+
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath, amssymb, amsthm, bm}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{physics}
+\usepackage{bbm}
+
+\title{Reality as a Self-Correcting Quantum Web:\\
+A ToE Substrate via Tensor Networks, Quantum Error Correction, and QCA}
+\author{}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We formalize a discrete quantum substrate in which reality is a network of finite-dimensional Hilbert spaces linked by entanglement. Local dynamics are unitary and strictly causal (QCA). Bulk-to-boundary holography arises as an isometric quantum error-correcting (QEC) map. Distances and geometry emerge from entanglement structure (minimal cuts); symmetries of the substrate induce gauge constraints in the bulk. We give axioms, operational definitions, and toy validations.
+\end{abstract}
+
+\section{Axioms (Formal)}
+\begin{enumerate}
+  \item \textbf{Discrete Substrate.} Let $G=(V,E)$ be a finite graph. Each $i\in V$ carries a Hilbert space $\mathcal{H}_i \cong \mathbb{C}^{d_i}$; the global space is $\mathcal{H} = \bigotimes_{i\in V}\mathcal{H}_i$.
+  \item \textbf{Locality \& Causality.} Time evolution $U$ is a finite-depth circuit of local unitaries supported on neighborhoods in $G$. Thus there exists a finite Lieb--Robinson velocity $v_{LR}$.
+  \item \textbf{Holographic Encoding.} There is an isometry $V:\mathcal{H}_{\mathrm{bulk}}\to \mathcal{H}_{\mathrm{bdy}}$ with QEC properties (Def.~\ref{def:KL}).
+  \item \textbf{Error Robustness.} For an admissible family of errors $\{E_a\}$, Knill--Laflamme holds: $P E_a^\dagger E_b P = c_{ab} P$, $P=VV^\dagger$.
+  \item \textbf{Emergent Geometry.} Entanglement induces a length functional; for tensor networks with bond dimension $\chi$, $S(A)\approx |\gamma_A| \log \chi$.
+  \item \textbf{QCA Dynamics.} Discrete time: $\ket{\psi_{t+1}} = U \ket{\psi_t}$ with $U$ a QCA on $G$ (e.g., split-step).
+  \item \textbf{Symmetry/Gauge Correspondence.} Global symmetries on the boundary act as local constraints (Gauss laws) in the bulk code subspace.
+\end{enumerate}
+
+\section{Operational Core}
+\subsection{Substrate}
+$G$ and local dimensions $\{d_i\}$ define the kinematics. Local neighborhoods $N_r(i)$ control admissible interactions.
+
+\subsection{Quantum Error Correction}
+\begin{defn}[Knill--Laflamme]\label{def:KL}
+A subspace $\mathcal{C} = \mathrm{Im}(V)\subset \mathcal{H}$ corrects error set $\{E_a\}$ iff for all $a,b$,
+$V^\dagger E_a^\dagger E_b V = c_{ab} \mathbbm{1}_{\mathrm{logical}}$.
+\end{defn}
+
+\subsection{Entanglement Geometry}
+Define a cut functional $L(\gamma) = \sum_{e\in \gamma} \ell(e)$ with $\ell(e)=\log \chi_e$. For boundary region $A$, let $\gamma_A$ be a minimal cut homologous to $A$. Then
+$S(A) \approx L(\gamma_A)$.
+
+\subsection{QCA and Causal Cones}
+Let $U=\prod_{\text{layers}} \prod_{(i,j)\in E_{\text{layer}}} U_{ij}$ be a checkerboard of local unitaries. Perturbations propagate within a light-cone bounded by depth $\times$ neighborhood radius.
+
+\section{Toy Validations}
+We include minimal checks: norm conservation under QCA, KL consistency on toy errors, and entanglement-cut proxies in 1D.
+
+\bibliographystyle{plain}
+\bibliography{refs}
+\end{document}

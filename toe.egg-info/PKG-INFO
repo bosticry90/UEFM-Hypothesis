@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: toe
+Version: 0.0.1
+Summary: TN/QEC/QCA substrate scaffolding for ToE
+Requires-Python: >=3.10

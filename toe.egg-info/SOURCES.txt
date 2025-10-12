@@ -1,5 +1,10 @@
 pyproject.toml
 tests/test_consistency.py
+tests/test_kl_scaling.py
+tests/test_lr_velocity.py
+tests/test_meta_axioms.py
+tests/test_random_graph_area.py
+tests/test_wedge_phase.py
 toe/__init__.py
 toe/geometry.py
 toe/qca.py

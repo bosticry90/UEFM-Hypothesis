@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.2)  12 OCT 2025 17:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.2)  13 OCT 2025 13:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -128,19 +128,8 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (C:\Users\psboy\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
-Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks24
-\thm@bodyfont=\toks25
-\thm@headfont=\toks26
-\thm@notefont=\toks27
-\thm@headpunct=\toks28
-\thm@preskip=\skip54
-\thm@postskip=\skip55
-\thm@headsep=\skip56
-\dth@everypar=\toks29
-)
-(C:\Users\psboy\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+)) (C:\Users\psboy\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.st
+y
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
 
 (C:\Users\psboy\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
@@ -160,6 +149,26 @@ File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen166
 \Gin@req@width=\dimen167
+)
+(C:\Users\psboy\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen168
+\lightrulewidth=\dimen169
+\cmidrulewidth=\dimen170
+\belowrulesep=\dimen171
+\belowbottomsep=\dimen172
+\aboverulesep=\dimen173
+\abovetopsep=\dimen174
+\cmidrulesep=\dimen175
+\cmidrulekern=\dimen176
+\defaultaddspace=\dimen177
+\@cmidla=\count298
+\@cmidlb=\count299
+\@aboverulesep=\dimen178
+\@belowrulesep=\dimen179
+\@thisruleclass=\count300
+\@lastruleclass=\count301
+\@thisrulewidth=\dimen180
 )
 (C:\Users\psboy\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
@@ -207,20 +216,20 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (C:\Users\psboy\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count298
+\c@section@level=\count302
 )
 (C:\Users\psboy\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count299
+\etb@tempcnta=\count303
 )
 (C:\Users\psboy\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
 ty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen168
-\Hy@linkcounter=\count300
-\Hy@pagecounter=\count301
+\@linkdim=\dimen181
+\Hy@linkcounter=\count304
+\Hy@pagecounter=\count305
  (C:\Users\psboy\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -228,7 +237,7 @@ Now handling font encoding PD1 ...
 ) (C:\Users\psboy\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count302
+\Hy@SavedSpaceFactor=\count306
  (C:\Users\psboy\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -241,14 +250,14 @@ Package hyperref Info: Plain pages OFF on input line 4210.
 Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
-\c@Hy@tempcnt=\count303
+\c@Hy@tempcnt=\count307
 
 (C:\Users\psboy\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4801.
-\XeTeXLinkMargin=\dimen169
+\XeTeXLinkMargin=\dimen182
 
 (C:\Users\psboy\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -258,9 +267,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count304
-\Field@Width=\dimen170
-\Fld@charsize=\dimen171
+\Fld@menulength=\count308
+\Field@Width=\dimen183
+\Fld@charsize=\dimen184
 Package hyperref Info: Hyper figures OFF on input line 6078.
 Package hyperref Info: Link nesting OFF on input line 6083.
 Package hyperref Info: Hyper index ON on input line 6086.
@@ -268,16 +277,16 @@ Package hyperref Info: backreferencing OFF on input line 6093.
 Package hyperref Info: Link coloring OFF on input line 6098.
 Package hyperref Info: Link coloring with OCG OFF on input line 6103.
 Package hyperref Info: PDF/A mode OFF on input line 6108.
-\Hy@abspage=\count305
-\c@Item=\count306
-\c@Hfootnote=\count307
+\Hy@abspage=\count309
+\c@Item=\count310
+\c@Hfootnote=\count311
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (C:\Users\psboy\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
-\Fld@listcount=\count308
-\c@bookmark@seq@number=\count309
+\Fld@listcount=\count312
+\c@bookmark@seq@number=\count313
 
 (C:\Users\psboy\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
 echeck.sty
@@ -290,56 +299,142 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 84.
 )
-\Hy@SectionHShift=\skip57
+\Hy@SectionHShift=\skip54
 )
-(C:\Users\psboy\AppData\Local\Programs\MiKTeX\tex/latex/preprint\authblk.sty
-Package: authblk 2001/02/27 1.3 (PWD)
-\affilsep=\skip58
-\@affilsep=\skip59
-\c@Maxaffil=\count310
-\c@authors=\count311
-\c@affil=\count312
+(C:\Users\psboy\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count314
+\l__siunitx_number_exponent_fixed_int=\count315
+\l__siunitx_number_min_decimal_int=\count316
+\l__siunitx_number_min_integer_int=\count317
+\l__siunitx_number_round_precision_int=\count318
+\l__siunitx_number_lower_threshold_int=\count319
+\l__siunitx_number_upper_threshold_int=\count320
+\l__siunitx_number_group_first_int=\count321
+\l__siunitx_number_group_size_int=\count322
+\l__siunitx_number_group_minimum_int=\count323
+\l__siunitx_angle_tmp_dim=\dimen185
+\l__siunitx_angle_marker_box=\box55
+\l__siunitx_angle_unit_box=\box56
+\l__siunitx_compound_count_int=\count324
+
+(C:\Users\psboy\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
+ns.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
 )
+\l__siunitx_table_tmp_box=\box57
+\l__siunitx_table_tmp_dim=\dimen186
+\l__siunitx_table_column_width_dim=\dimen187
+\l__siunitx_table_integer_box=\box58
+\l__siunitx_table_decimal_box=\box59
+\l__siunitx_table_uncert_box=\box60
+\l__siunitx_table_before_box=\box61
+\l__siunitx_table_after_box=\box62
+\l__siunitx_table_before_dim=\dimen188
+\l__siunitx_table_carry_dim=\dimen189
+\l__siunitx_unit_tmp_int=\count325
+\l__siunitx_unit_position_int=\count326
+\l__siunitx_unit_total_int=\count327
+ (C:\Users\psboy\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
+\col@sep=\dimen190
+\ar@mcellbox=\box63
+\extrarowheight=\dimen191
+\NC@list=\toks24
+\extratabsurround=\skip55
+\backup@length=\skip56
+\ar@cellbox=\box64
+)) (C:\Users\psboy\AppData\Local\Programs\MiKTeX\tex/latex/physics\physics.sty
+Package: physics 
+
+(C:\Users\psboy\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
+(C:\Users\psboy\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2025-07-19 L3 programming layer (loader) 
+
 (C:\Users\psboy\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count313
+\l__color_backend_stack_int=\count328
+))
+Package: xparse 2024-08-16 L3 Experimental document command parser
+))
+(C:\Users\psboy\AppData\Local\Programs\MiKTeX\tex/latex/tools\bm.sty
+Package: bm 2023/12/19 v1.2f Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 )
-No file white_paper_skeleton.aux.
+(C:\Users\psboy\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count329
+\float@exts=\toks25
+\float@box=\box65
+\@float@everytoks=\toks26
+\@floatcapt=\box66
+)
+(C:\Users\psboy\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(C:\Users\psboy\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+(C:\Users\psboy\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 24.
+Package translations Info: No language package found. I am going to use `englis
+h' as default language. on input line 31.
+ (white_paper_skeleton.aux)
 \openout1 = `white_paper_skeleton.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: <default>
+* paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=469.75502pt
-* \textheight=650.43001pt
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
 * \oddsidemargin=0.0pt
 * \evensidemargin=0.0pt
 * \topmargin=-37.0pt
@@ -364,17 +459,17 @@ LaTeX Font Info:    ... okay on input line 17.
 (C:\Users\psboy\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count314
-\scratchdimen=\dimen172
-\scratchbox=\box55
-\nofMPsegments=\count315
-\nofMParguments=\count316
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count317
-\MPscratchDim=\dimen173
-\MPnumerator=\count318
-\makeMPintoPDFobject=\count319
-\everyMPtoPDFconversion=\toks31
+\scratchcounter=\count330
+\scratchdimen=\dimen192
+\scratchbox=\box67
+\nofMPsegments=\count331
+\nofMParguments=\count332
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count333
+\MPscratchDim=\dimen193
+\MPnumerator=\count334
+\makeMPintoPDFobject=\count335
+\everyMPtoPDFconversion=\toks28
 )
 (C:\Users\psboy\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -386,149 +481,106 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 17.
+Package hyperref Info: Link coloring ON on input line 31.
+ (white_paper_skeleton.out) (white_paper_skeleton.out)
 \@outlinefile=\write3
 \openout3 = `white_paper_skeleton.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 18.
 
- (C:\Users\psboy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+
+Package siunitx Warning: Detected the "physics" package:
+(siunitx)                omitting definition of \qty.
+(siunitx)                
+(siunitx)                If you want to use \qty with the siunitx definition,
+(siunitx)                add 
+(siunitx)                
+(siunitx)                    \AtBeginDocument{\RenewCommandCopy\qty\SI}
+(siunitx)                
+(siunitx)                to your preamble.
+
+
+(C:\Users\psboy\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
+slations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 31.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
+
+
+(C:\Users\psboy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
 
 
 (C:\Users\psboy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+(white_paper_skeleton.toc)
+\tf@toc=\write4
+\openout4 = `white_paper_skeleton.toc'.
 
-LaTeX Warning: Reference `fig:path' on page 1 undefined on input line 36.
-
-
-LaTeX Warning: Reference `fig:ring' on page 1 undefined on input line 36.
-
-<../outputs/figs/entropy_path_N64_chi3.png, id=3, 462.528pt x 346.896pt>
-File: ../outputs/figs/entropy_path_N64_chi3.png Graphic file (type png)
-<use ../outputs/figs/entropy_path_N64_chi3.png>
-Package pdftex.def Info: ../outputs/figs/entropy_path_N64_chi3.png  used on inp
-ut line 40.
-(pdftex.def)             Requested size: 328.82707pt x 246.63135pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<../outputs/figs/entropy_ring_N64_chi3.png, id=5, 462.528pt x 346.896pt>
-File: ../outputs/figs/entropy_ring_N64_chi3.png Graphic file (type png)
-<use ../outputs/figs/entropy_ring_N64_chi3.png>
-Package pdftex.def Info: ../outputs/figs/entropy_ring_N64_chi3.png  used on inp
-ut line 47.
-(pdftex.def)             Requested size: 328.82707pt x 246.63135pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `fig:er' on page 1 undefined on input line 52.
-
-<../outputs/figs/entropy_er_random_n64_chi2.png, id=6, 462.528pt x 346.896pt>
-File: ../outputs/figs/entropy_er_random_n64_chi2.png Graphic file (type png)
-<use ../outputs/figs/entropy_er_random_n64_chi2.png>
-Package pdftex.def Info: ../outputs/figs/entropy_er_random_n64_chi2.png  used o
-n input line 56.
-(pdftex.def)             Requested size: 328.82707pt x 246.63135pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `fig:lr' on page 1 undefined on input line 62.
-
-<../outputs/figs/lr_radius.png, id=7, 462.528pt x 346.896pt>
-File: ../outputs/figs/lr_radius.png Graphic file (type png)
-<use ../outputs/figs/lr_radius.png>
-Package pdftex.def Info: ../outputs/figs/lr_radius.png  used on input line 66.
-(pdftex.def)             Requested size: 328.82707pt x 246.63135pt.
 
 
 [1
 
 {C:/Users/psboy/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+[2]
 
-<../outputs/figs/lr_velocity.png, id=32, 462.528pt x 346.896pt>
-File: ../outputs/figs/lr_velocity.png Graphic file (type png)
-<use ../outputs/figs/lr_velocity.png>
-Package pdftex.def Info: ../outputs/figs/lr_velocity.png  used on input line 72
-.
-(pdftex.def)             Requested size: 328.82707pt x 246.63135pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+[3]
+Overfull \hbox (12.01225pt too wide) in paragraph at lines 158--159
+\OT1/cmr/m/n/10.95 For sim-u-la-tion schedul-ing and re-source al-lo-ca-tion, w
+e em-ploy sim-plex op-ti-miza-tion un-der smoothed
+ []
 
 
-LaTeX Warning: Reference `fig:kl' on page 2 undefined on input line 78.
 
-<../outputs/figs/kl_success_din2_w1.png, id=33, 462.528pt x 346.896pt>
-File: ../outputs/figs/kl_success_din2_w1.png Graphic file (type png)
-<use ../outputs/figs/kl_success_din2_w1.png>
-Package pdftex.def Info: ../outputs/figs/kl_success_din2_w1.png  used on input 
-line 82.
-(pdftex.def)             Requested size: 328.82707pt x 246.63135pt.
+[4] (white_paper_skeleton.bbl
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-No file white_paper_skeleton.bbl.
+)
 
-
-[2 <../outputs/figs/entropy_path_N64_chi3.png>]
-
-[3 <../outputs/figs/entropy_ring_N64_chi3.png> <../outputs/figs/entropy_er_rand
-om_n64_chi2.png>]
-
-[4 <../outputs/figs/lr_radius.png> <../outputs/figs/lr_velocity.png>]
-
-[5 <../outputs/figs/kl_success_din2_w1.png>] (white_paper_skeleton.aux)
+[5] (white_paper_skeleton.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-19>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `white_paper_skeleton.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `white_paper_skeleton.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  85934131D14877CCB05987C117E6E90E;1305.
+Package rerunfilecheck Info: File `white_paper_skeleton.out' has not changed.
+(rerunfilecheck)             Checksum: E84CEF0F983C530EE70CD2A5E790D25B;1219.
  ) 
 Here is how much of TeX's memory you used:
- 10342 strings out of 468149
- 158567 string characters out of 5431083
- 573996 words of memory out of 5000000
- 38808 multiletter control sequences out of 15000+600000
- 636712 words of font info for 79 fonts, out of 8000000 for 9000
+ 15371 strings out of 468149
+ 294879 string characters out of 5431083
+ 681784 words of memory out of 5000000
+ 43764 multiletter control sequences out of 15000+600000
+ 638774 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,7n,79p,559b,471s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/psboy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmbx10.pfb><C:/Users/psboy/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmbx12.pfb><C:/Users/psboy/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmmi10.pfb><C:/Users/psboy/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/psboy/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/psboy/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/psboy/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/psboy/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/
-psboy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
-/Users/psboy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb><C:/Users/psboy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmtt10.pfb>
-Output written on white_paper_skeleton.pdf (5 pages, 381646 bytes).
+ 75i,6n,79p,542b,1120s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\psboy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1095.pk><C:/Users/psboy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmbx10.pfb><C:/Users/psboy/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmbx12.pfb><C:/Users/psboy/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmex10.pfb><C:/Users/psboy/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/psboy/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/psboy/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/psboy/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/p
+sboy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
+/Users/psboy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.
+pfb><C:/Users/psboy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb><C:/Users/psboy/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmsy8.pfb><C:/Users/psboy/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmti10.pfb><C:/Users/psboy/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/psboy/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/psboy/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on white_paper_skeleton.pdf (5 pages, 223081 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 26 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 184 PDF objects out of 1000 (max. 8388607)
+ 41 named destinations out of 1000 (max. 500000)
+ 65 words of extra memory for PDF output out of 10000 (max. 10000000)
 

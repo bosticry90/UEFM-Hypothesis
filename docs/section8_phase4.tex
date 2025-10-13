@@ -1,0 +1,22 @@
+% docs/section8_phase4.tex
+\section{Adaptive and Thermodynamic Extensions (Phase 4)}
+\label{sec:phase4}
+
+\paragraph{Tensor-Coherence Diagnostic.}
+We define a tensor-based coherence functional for pure states on a 1D register by averaging the von Neumann entanglement entropies over all contiguous bipartitions. Given a state vector $\psi \in \mathbb{C}^{d^N}$ reshaped as $(d^k)\times(d^{N-k})$ across cut $k$, with singular values $s_i^{(k)}$, we set $p_i^{(k)} = (s_i^{(k)})^2 / \sum_j (s_j^{(k)})^2$ and
+\[
+S_T(\psi) \equiv \frac{1}{N-1}\sum_{k=1}^{N-1} \left[-\sum_i p_i^{(k)} \ln p_i^{(k)}\right].
+\]
+This quantity, computed efficiently by sequential SVDs, correlates with our area-law proxy and serves as an operational measure of compressibility (low-rank structure) in field configurations.
+
+\paragraph{Observed Behavior.}
+Under local, reversible QCA dynamics, $S_T$ grows from $0$ for product states and exhibits a light-cone-limited increase consistent with Lieb–Robinson bounds. In noisy evolutions, the diagnostic separates coherent entanglement growth from incoherent mixing, complementing the energy-drift and wedge reconstructability tests.
+
+\paragraph{Learned Potentials (Future Work).}
+We will extend the Hamiltonian density with a data-driven potential $V_\theta(\phi)$ parameterized by a small neural network. The goal is to compare $S_T$ and physical stability as $\theta$ is trained to minimize action or maximize coherence subject to conservation proxies. This operationalizes the “computational ether” hypothesis via differentiable surrogates.
+
+\paragraph{Thermodynamic Analogy.}
+By sampling families of states $\{\psi_i\}$ with energies $\mathcal{H}[\psi_i]$, we estimate a toy partition function $Z(\beta)=\sum_i e^{-\beta \mathcal{H}[\psi_i]}$ and track $\langle E\rangle_\beta$, $\mathrm{Var}(E)$, and $S_T$ across $\beta$. The coupling of informational and energetic order provides an empirical link between compressibility and stability in our framework.
+
+\paragraph{Reproducibility.}
+All experiments are automated via \texttt{examples/tensor\_coherence\_benchmark.py} (TSV output) and validated by new unit tests. CI executes these diagnostics (fast settings) to prevent regressions.

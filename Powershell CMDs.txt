@@ -1,0 +1,2 @@
+cd "C:\Users\psboy\Documents\ToE"
+.\.venv\Scripts\activate

@@ -9,6 +9,7 @@ tests/test_meta_axioms.py
 tests/test_noise_channels.py
 tests/test_noise_scan.py
 tests/test_random_graph_area.py
+tests/test_tensor_coherence.py
 tests/test_tensor_entropy.py
 tests/test_tensor_optional.py
 tests/test_wedge_phase.py
@@ -21,6 +22,7 @@ toe/qec.py
 toe/substrate.py
 toe/tensor_coherence.py
 toe/tensor_entropy.py
+toe/tensor_tools.py
 toe.egg-info/PKG-INFO
 toe.egg-info/SOURCES.txt
 toe.egg-info/dependency_links.txt

@@ -5,19 +5,48 @@ on:
   pull_request:
 
 jobs:
-  test:
+  test-and-fits:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-python@v5
-      with:
-        python-version: "3.10"
-    - name: Install
-      run: |
-        python -m pip install --upgrade pip
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-        pip install -e .
-        # Optional: enable TensorLy path
-        # pip install tensorly
-    - name: Tests
-      run: pytest -q
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install system deps for LaTeX (skip if not needed)
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended graphviz || true
+
+      - name: Install deps
+        run: |
+          python -m pip install -U pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          pip install -e .
+          # ensure pandas/matplotlib/scipy present for fits
+          pip install pandas matplotlib scipy
+
+      - name: Run unit tests
+        run: pytest -q
+
+      - name: Generate raw data if missing
+        run: |
+          python examples/tt_area_law_check.py || true
+          python examples/lr_noise_sweep.py || true
+
+      - name: Run Phase 3.2 fits
+        run: |
+          python examples/fit_lr_noise_alpha.py
+          python examples/fit_tt_area_beta.py
+          python examples/build_phase3_tables.py
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: phase3.2-artifacts
+          path: |
+            outputs/phase3_lr_fit.tsv
+            outputs/phase3_tt_area_fit.tsv
+            outputs/figs/lr_noise_alpha_fit.png
+            outputs/figs/tt_area_beta_fit.png
+            docs/auto/phase3_metrics.tex

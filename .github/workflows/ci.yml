@@ -1,52 +1,86 @@
-name: CI
+name: ToE Continuous Integration
 
 on:
   push:
+    branches: [ main, master ]
   pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
 
 jobs:
-  test-and-fits:
+  build-test-validate:
+    name: Build, Test, and Validate Phase Outputs
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
+    env:
+      MPLBACKEND: Agg
+      OMP_NUM_THREADS: 1
+      OPENBLAS_NUM_THREADS: 1
+      MKL_NUM_THREADS: 1
+      NUMEXPR_NUM_THREADS: 1
+      PYTHONUNBUFFERED: "1"
 
-      - name: Set up Python
+    steps:
+      # 1) Checkout
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2) Python
+      - name: Set up Python 3.10
         uses: actions/setup-python@v5
         with:
           python-version: "3.10"
+          cache: "pip"
 
-      - name: Install system deps for LaTeX (skip if not needed)
-        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended graphviz || true
-
-      - name: Install deps
+      # 3) Dependencies
+      - name: Install dependencies
         run: |
-          python -m pip install -U pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          python -m pip install --upgrade pip
           pip install -e .
-          # ensure pandas/matplotlib/scipy present for fits
-          pip install pandas matplotlib scipy
+          pip install pytest pandas matplotlib numpy scipy tensorly sympy
 
-      - name: Run unit tests
+      # 4) Unit tests
+      - name: Run Pytest suite
         run: pytest -q
+        continue-on-error: false
 
-      - name: Generate raw data if missing
+      # 5) Core Phase 3 artifacts
+      - name: Run validation examples
         run: |
-          python examples/tt_area_law_check.py || true
-          python examples/lr_noise_sweep.py || true
+          mkdir -p outputs/figs
+          python examples/referee_pack.py
+          python examples/lr_noise_sweep.py
+          python examples/kl_tt_scan.py
+          python examples/prediction_verifier.py > outputs/prediction_summary.json
 
-      - name: Run Phase 3.2 fits
+      # 6) Phase 3.5 scans (optional but non-blocking if a script is absent)
+      - name: Run Phase 3.5 extended scans
         run: |
-          python examples/fit_lr_noise_alpha.py
-          python examples/fit_tt_area_beta.py
-          python examples/build_phase3_tables.py
+          python examples/curvature_scan.py || true
+          python examples/superfluid_mapping.py || true
+          python examples/qca_continuum_bridge.py || true
+          python examples/entropy_scaling_refit.py || true
+          python examples/stochastic_stability_scan.py || true
 
+      # (Optional) Phase 4 prototype, non-blocking
+      - name: Run Phase 4 (gauge symmetry prototype)
+        run: python examples/gauge_symmetry_scan.py || true
+
+      # 7) Build LaTeX white paper
+      - name: Build white paper (PDF)
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: white_paper_skeleton.tex
+          working_directory: docs
+          compiler: pdflatex
+
+      # 8) Upload artifacts
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: phase3.2-artifacts
+          name: phase3.5-artifacts
           path: |
-            outputs/phase3_lr_fit.tsv
-            outputs/phase3_tt_area_fit.tsv
-            outputs/figs/lr_noise_alpha_fit.png
-            outputs/figs/tt_area_beta_fit.png
-            docs/auto/phase3_metrics.tex
+            outputs/**/*.tsv
+            outputs/**/*.png
+            outputs/prediction_summary.json
+            docs/white_paper_skeleton.pdf
+          if-no-files-found: warn

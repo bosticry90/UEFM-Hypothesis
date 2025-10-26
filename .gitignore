@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.venv/
+.env
+dist/
+build/
+
+# Test & tools
+.pytest_cache/
+coverage.xml
+htmlcov/
+
+# Outputs
+outputs/**/*.tsv
+outputs/**/*.png
+outputs/**/*.pdf
+outputs/**/*.json
+outputs/**/*.log
+
+# LaTeX
+docs/*.aux
+docs/*.log
+docs/*.out
+docs/*.toc
+docs/*.bbl
+docs/*.blg
+docs/*.synctex.gz
+docs/*.fdb_latexmk
+docs/*.fls
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

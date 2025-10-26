@@ -1,8 +1,16 @@
-\contentsline {section}{\numberline {1}Abstract}{2}{section.1}%
-\contentsline {section}{\numberline {2}1. Introduction}{2}{section.2}%
-\contentsline {section}{\numberline {3}2. Theoretical Framework}{2}{section.3}%
-\contentsline {section}{\numberline {4}3. Phase 1–2 Implementation Summary}{3}{section.4}%
-\contentsline {section}{\numberline {5}4. UEFM Integration (Phase 3)}{3}{section.5}%
-\contentsline {section}{\numberline {6}5. Results and Discussion}{4}{section.6}%
-\contentsline {section}{\numberline {7}6. Future Work}{5}{section.7}%
-\contentsline {section}{\numberline {8}7. Conclusion}{5}{section.8}%
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {section}{\numberline {2}Theoretical Core}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Field Definition}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Predicted Behaviors}{2}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Phase 3: Verification Framework}{2}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Referee Pack Validation}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Noise–Drift and Tensor Compression Results}{3}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Tensor–Rank and Area Law Verification}{3}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Phase 3.5: Advanced Tests and Stochastic Robustness}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Curvature–Coherence Mapping}{4}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Superfluid Analogy}{4}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}QCA Continuum Bridge}{5}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Entropy–Scaling Refit}{5}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Stochastic Stability}{6}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Discussion and Implications}{7}{section.5}%
+\contentsline {section}{\numberline {6}Conclusion and Next Steps}{7}{section.6}%
